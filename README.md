@@ -47,10 +47,10 @@ converted to preemptive Shortest- Job First (SJF).
 Example :
 
 Processes Burst time Arrival time Priority Quantum
--  P1         - 17         - 0         - 4       - 7
--  P2         - 6          - 2         - 7       - 9
--  P3         - 11         - 5         - 3       - 4
--  P4         - 4          - 15        - 6       - 6
+-  P1         17         0         4       7
+-  P2         6          2         7       9
+-  P3         11         5         3       4
+-  P4         4          15        6       6
   
   Answer:
 - Quantum (7, 9, 4,6) -> ceil(25%) = ( 2,-,-,-) && ceil(50%) = ( 4,-,-,-)
